@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bhavnik Solanki – AI Developer | Intelligent interfaces, LLM-powered products, generative AI">
+    <title>Bhavnik Solanki | AI Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-zinc-950 text-zinc-100 font-sans page-enter">
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-zinc-950 border-b border-zinc-800">
+        <div class="max-w-screen-2xl mx-auto px-6">
+            <div class="flex items-center justify-between h-24">
+                <a href="index.html" class="flex items-center gap-x-3 text-2xl font-semibold tracking-tighter">
+                    <!-- ✨ Your image here (replace the URL) -->
+                    <img src="c:\Users\Bhavnik\Pictures\profile photo.jpeg" alt="Your Logo / Avatar" class="w-12 h-12 rounded-2xl ring-2 ring-[#00d4ff]/30 object-cover hover:ring-[#00d4ff] hover:scale-110 transition-all">
+                    <span class="text-white">Bhavnik Solanki</span>
+                </a>
+
+                <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+
+                <button id="mobile-menu-button" class="md:hidden flex items-center justify-center w-10 h-10 rounded-2xl hover:bg-zinc-900">
+                    <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-zinc-950 border-t border-zinc-800 px-6 py-4">
+            <div class="flex flex-col gap-y-4 text-sm font-medium">
+                <a href="index.html" onclick="toggleMobileMenu()" class="py-3 px-4 hover:bg-zinc-900 rounded-3xl">Home</a>
+                <a href="about.html" onclick="toggleMobileMenu()" class="py-3 px-4 hover:bg-zinc-900 rounded-3xl">About</a>
+                <a href="projects.html" onclick="toggleMobileMenu()" class="py-3 px-4 hover:bg-zinc-900 rounded-3xl">Projects</a>
+                <a href="contact.html" onclick="toggleMobileMenu()" class="py-3 px-4 hover:bg-zinc-900 rounded-3xl">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-bg min-h-screen flex items-center relative overflow-hidden">
+        <div class="max-w-screen-2xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-x-2 bg-zinc-900/80 backdrop-blur-md text-zinc-300 text-sm font-medium px-5 h-9 rounded-3xl border border-[#00d4ff]/30">
+                    <div class="w-2 h-2 bg-[#00d4ff] rounded-full animate-ping"></div>
+                    AI DEVELOPER • OPEN FOR COLLABORATION
+                </div>
+
+                <h1 id="hero-headline" class="text-6xl md:text-7xl font-semibold tracking-[-2px] leading-none">
+                    Hi, I'm <span class="text-[#00d4ff]">Bhavnik Solanki</span><br>AI Developer
+                </h1>
+
+                <p class="text-xl text-zinc-400 max-w-lg">
+                    I build <span class="text-white font-medium">intelligent, human-centered AI products</span> that feel magical. From LLM-powered interfaces to generative AI tools and autonomous agents — I turn complex models into delightful, production-ready
+                    experiences.
+                </p>
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="projects.html" class="group inline-flex items-center justify-center h-14 px-10 bg-[#00d4ff] hover:bg-cyan-300 text-zinc-950 font-semibold rounded-3xl text-lg shadow-xl hover:shadow-2xl hover:shadow-[#00d4ff]/40 hover:scale-105 active:scale-90 transition-all duration-500 ease-out">
+                        Explore My AI Projects
+                        <span class="ml-3 text-3xl group-hover:translate-x-2 group-active:rotate-12 transition-all duration-300">→</span>
+                    </a>
+                    <a href="contact.html" class="inline-flex items-center justify-center h-14 px-8 border border-white/30 hover:border-white font-medium rounded-3xl text-lg">
+                        Let's Build Together
+                    </a>
+                </div>
+
+                <!-- Quick contact details -->
+                <div class="pt-6 border-t border-zinc-700 flex flex-wrap gap-x-8 gap-y-4 text-sm">
+                    <a href="mailto:bhavnik.solanki.581@gmail.com" class="flex items-center gap-x-3 hover:text-[#00d4ff]">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path d="M19.5 22.5a3 3 0 0 0 3-3v-8.174l-6.879 4.022 3.485 1.876a.75.75 0 1 1-.712 1.321l-5.683-3.06a1.5 1.5 0 0 0-1.422 0l-5.683 3.06a.75.75 0 0 1-.712-1.32l3.485-1.877L1.5 11.326V19.5a3 3 0 0 0 3 3h15Z" />
+                            <path d="M1.5 9.589v-.745a3 3 0 0 1 1.578-2.642l7.5-4.038a3 3 0 0 1 2.844 0l7.5 4.038A3 3 0 0 1 22.5 8.844v.745l-8.426 4.926-.652-.351a3 3 0 0 0-2.844 0l-.652.351L1.5 9.589Z" />
+                        </svg>
+                        <!--✉️--><span class="font-medium">Mail Me</span>
+
+                    </a>
+                    <a href="http://linkedin.com/in/bhavniksolanki" target="_blank" class="flex items-center gap-x-3 hover:text-[#00d4ff]">
+                        <!--💼-->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M7.5 5.25a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3v.205c.933.085 1.857.197 2.774.334 1.454.218 2.476 1.483 2.476 2.917v3.033c0 1.211-.734 2.352-1.936 2.752A24.726 24.726 0 0 1 12 15.75c-2.73 0-5.357-.442-7.814-1.259-1.202-.4-1.936-1.541-1.936-2.752V8.706c0-1.434 1.022-2.7 2.476-2.917A48.814 48.814 0 0 1 7.5 5.455V5.25Zm7.5 0v.09a49.488 49.488 0 0 0-6 0v-.09a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5Zm-3 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z" clip-rule="evenodd" />
+                        <path d="M3 18.4v-2.796a4.3 4.3 0 0 0 .713.31A26.226 26.226 0 0 0 12 17.25c2.892 0 5.68-.468 8.287-1.335.252-.084.49-.189.713-.311V18.4c0 1.452-1.047 2.728-2.523 2.923-2.12.282-4.282.427-6.477.427a49.19 49.19 0 0 1-6.477-.427C4.047 21.128 3 19.852 3 18.4Z" />
+                        </svg>
+                        <span class="font-medium">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/BhavnikSolanki" target="_blank" class="flex items-center gap-x-3 hover:text-[#00d4ff]">
+                        <!--🐙-->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M3 6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6Zm14.25 6a.75.75 0 0 1-.22.53l-2.25 2.25a.75.75 0 1 1-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 1 1 1.06-1.06l2.25 2.25c.141.14.22.331.22.53Zm-10.28-.53a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06L8.56 12l1.72-1.72a.75.75 0 1 0-1.06-1.06l-2.25 2.25Z" clip-rule="evenodd" />
+                        </svg>
+                        <span class="font-medium">GitHub</span>
+                    </a>
+                    <a href="https://x.com/BSolanki1007" target="_blank" class="flex items-center gap-x-3 hover:text-[#00d4ff]">
+                        <div class="w-2 h-1 bg-zinc-900 rounded-1xl flex items-center justify-center text-2xl group-hover:rotate-12 leading-none">
+                            𝕏
+                        </div>
+                        <span class="font-medium">@BSolanki1007</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero visual -->
+            <div class="relative flex justify-center md:justify-end">
+                <div class="relative w-80 md:w-96 h-80 md:h-96 rounded-3xl overflow-hidden border-8 border-[#00d4ff]/20 shadow-2xl">
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXF3c2g0end2Z29lanRsb3VoNmMzdjF3aWQ1aW5mbW9lYTliaXFtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sPD0WMaCidlM9E2Nl8/giphy.gif" alt="Your professional photo" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 bg-zinc-900/90 backdrop-blur-xl text-xs font-medium px-5 h-10 rounded-3xl flex items-center gap-x-3 border border-[#00d4ff]/40">
+                        <span class="relative flex h-3 w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#00d4ff] opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-[#00d4ff]"></span>
+                        </span>
+                        Currently training new AI agents
+                    </div>
+                </div>
+
+                <!-- Floating badges -->
+                <div class="absolute -top-4 -right-4 bg-zinc-900 border border-[#00d4ff]/30 text-[#00d4ff] text-xs font-mono px-4 h-8 rounded-3xl flex items-center shadow-xl animate-float">LLM</div>
+                <div class="absolute top-12 -left-6 bg-zinc-900 border border-[#00d4ff]/30 text-[#00d4ff] text-xs font-mono px-4 h-8 rounded-3xl flex items-center shadow-xl animate-float">RAG</div>
+                <div class="absolute bottom-12 right-12 bg-zinc-900 border border-[#00d4ff]/30 text-[#00d4ff] text-xs font-mono px-4 h-8 rounded-3xl flex items-center shadow-xl animate-float">AGENT</div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator (now actually does something!) -->
+        <div class="absolute bottom-12 left-1/2 hidden md:flex flex-col items-center gap-y-2 text-zinc-400 text-xs tracking-widest">
+            <div class="animate-bounce">↓</div>
+            SCROLL FOR MORE
+        </div>
+    </section>
+
+    <!-- NEW: SCROLLABLE CONTENT BELOW HERO (this is what was missing) -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-24 border-t border-zinc-800">
+        <div class="grid md:grid-cols-12 gap-16 items-center">
+            <!-- Teaser About -->
+            <div class="md:col-span-5 animate-on-scroll">
+                <h2 class="text-4xl font-semibold tracking-tighter mb-4">Building the future with AI</h2>
+                <p class="text-zinc-400 text-lg">
+                    With 5+ years turning LLMs, RAG systems, and generative models into beautiful, production-ready products, I help startups and companies ship intelligent experiences that users actually love.
+                </p>
+                <a href="about.html" class="mt-6 inline-flex items-center text-[#00d4ff] font-medium gap-x-2">
+                    Learn my full story →
+                </a>
+            </div>
+
+            <!-- Stats / Approach -->
+            <div class="md:col-span-7 grid grid-cols-3 gap-6 animate-on-scroll" style="animation-delay: 150ms">
+                <div class="bg-zinc-900/70 border border-zinc-700 rounded-3xl p-6 text-center">
+                    <div class="text-5xl font-semibold text-[#00d4ff] text-center">6+</div>
+                    <div class="text-sm text-zinc-400 mt-2">AI/ML Project Shipped</div>
+                </div>
+                <div class="bg-zinc-900/70 border border-zinc-700 rounded-3xl p-6 text-center">
+                    <div class="text-5xl font-semibold text-center text-[#00d4ff]">Master's In AI</div>
+                    <div class="text-sm text-zinc-400 mt-2">Completed</div>
+                </div>
+                <div class="bg-zinc-900/70 border border-zinc-700 rounded-3xl p-6 text-center">
+                    <div class="text-5xl font-semibold text-[#00d4ff]">4.9★</div>
+                    <div class="text-sm text-zinc-400 mt-2">Project Quality</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECTS TEASER -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-20 bg-zinc-900">
+        <div class="flex justify-between items-baseline mb-12">
+            <h2 class="text-4xl font-semibold tracking-tighter animate-on-scroll">Featured AI Projects</h2>
+            <a href="projects.html" class="text-[#00d4ff] flex items-center gap-x-2 font-medium hover:gap-x-3">
+                See all projects <span class="text-2xl">→</span>
+            </a>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Project 1: Crop Recommendation System -->
+            <div class="project-card bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden animate-on-scroll">
+                <div class="h-60 bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center text-7xl">🌾</div>
+                <div class="p-8">
+                    <h3 class="font-semibold text-2xl">Crop Recommendation System</h3>
+                    <p class="text-zinc-400 mt-3 text-base">Machine Learning model that recommends the best crop to grow based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.</p>
+                    <div class="mt-8 flex justify-between items-center">
+                        <a href="https://github.com/BhavnikSolanki/Crop_Recommendation_System" target="_blank" class="text-[#00d4ff] font-medium hover:underline">View on GitHub →</a>
+                        <span class="text-xs font-mono bg-zinc-900 px-3 py-1 rounded-2xl">Python • ML</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Add your second repo here -->
+            <div class="project-card bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden animate-on-scroll">
+                <div class="h-60 bg-gradient-to-br from-purple-500 to-violet-600 flex items-center justify-center text-8xl">🖼️→🔊</div>
+                <div class="p-8">
+                    <h3 class="font-semibold text-2xl">Image-to-Speech GenAI Tool</h3>
+                    <p class="text-zinc-400 mt-3 line-clamp-4">AI tool that generates an Audio short story based on the context of an uploaded image using GenAI LLM, Hugging Face, OpenAI &amp; LangChain.</p>
+                    <div class="flex justify-between items-center mt-8">
+                        <a href="https://image-to-speech-genai-tool-using-llm.streamlit.app/" target="_blank" class="text-[#00d4ff] font-medium">Live Demo →</a>
+                        <a href="https://github.com/BhavnikSolanki/Translation-tool-for-Image-to-Speech-GenAI-Using-LLM-" target="_blank" class="text-xs font-mono bg-zinc-900 px-3 py-1 rounded-2xl">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Add your third repo here -->
+            <div class="project-card bg-zinc-950 border border-zinc-800 rounded-3xl overflow-hidden animate-on-scroll" style="animation-delay: 200ms">
+                <div class="h-60 bg-gradient-to-br from-amber-500 to-orange-500 flex items-center justify-center text-8xl">💰</div>
+                <div class="p-8">
+                    <h3 class="font-semibold text-2xl">Salary Prediction</h3>
+                    <p class="text-zinc-400 mt-3 line-clamp-4">Machine Learning model to predict employee salaries using regression techniques.</p>
+                    <div class="flex justify-between items-center mt-8">
+                        <a href="https://github.com/BhavnikSolanki/Salary-Prediction" target="_blank" class="text-xs font-mono bg-zinc-900 px-3 py-1 rounded-2xl">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="max-w-screen-2xl mx-auto px-6 py-20 text-center">
+        <div class="max-w-2xl mx-auto animate-on-scroll">
+            <h2 class="text-5xl font-semibold tracking-tighter">Ready to build something intelligent?</h2>
+            <p class="text-zinc-400 mt-6 text-lg">Let’s turn your AI idea into a real product that users will love.</p>
+
+            <!-- POP HOVER BUTTON -->
+            <a href="contact.html" class="group mt-10 inline-flex items-center justify-center h-14 px-10 bg-[#00d4ff] hover:bg-cyan-300 text-zinc-950 font-semibold rounded-3xl text-lg shadow-xl hover:shadow-2xl hover:shadow-[#00d4ff]/40 hover:scale-110 active:scale-95 transition-all duration-300 ease-out">
+                Get in touch today
+                <span class="ml-3 text-3xl group-hover:translate-x-2 group-active:rotate-12 transition-all duration-300">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black py-8 border-t border-zinc-800">
+        <div class="max-w-screen-2xl mx-auto px-6 text-center text-zinc-500 text-sm">
+            © 2026 Bhavnik Solanki • AI Developer • Built with real passion
+        </div>
+    </footer>
+
+    <!-- GROK AI CHATBOT (works on every page) -->
+    <div id="grok-chatbot" class="fixed bottom-8 right-8 z-[9999] flex flex-col items-end">
+        <button onclick="toggleGrokChat()" class="group w-16 h-16 bg-gradient-to-br from-[#00d4ff] to-cyan-400 hover:from-cyan-300 hover:to-[#00d4ff] rounded-3xl shadow-2xl shadow-[#00d4ff]/50 flex items-center justify-center text-4xl transition-all hover:scale-110 active:scale-95">
+            <span class="group-active:rotate-12">🤖</span>
+        </button>
+
+        <div id="chat-window" class="hidden mt-4 w-80 md:w-96 bg-zinc-900 border border-[#00d4ff]/30 rounded-3xl shadow-2xl overflow-hidden">
+            <div class="px-5 py-4 bg-zinc-950 border-b border-[#00d4ff]/20 flex items-center gap-x-3">
+                <div class="w-8 h-8 bg-[#00d4ff] rounded-2xl flex items-center justify-center text-xl">G</div>
+                <div>
+                    <h3 class="font-semibold">Grok AI</h3>
+                    <p class="text-xs text-[#00d4ff]">Powered by xAI • Ask me anything</p>
+                </div>
+                <button onclick="toggleGrokChat()" class="ml-auto text-zinc-400 hover:text-white">✕</button>
+            </div>
+            <div id="chat-messages" class="h-96 p-5 overflow-y-auto space-y-4 text-sm bg-zinc-950"></div>
+            <div class="p-4 border-t border-zinc-800 bg-zinc-900">
+                <form id="chat-form" class="flex gap-x-3">
+                    <input id="chat-input" type="text" placeholder="Ask Grok..." class="flex-1 bg-zinc-800 border border-zinc-700 focus:border-[#00d4ff] rounded-3xl px-5 py-3 outline-none text-zinc-100">
+                    <button type="submit" class="w-10 h-10 bg-[#00d4ff] text-zinc-950 rounded-3xl flex items-center justify-center text-xl hover:rotate-12">↑</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
